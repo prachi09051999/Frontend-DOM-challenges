@@ -1,0 +1,48 @@
+.card {
+  width: 500px;
+  height: 500px;
+  background: #f1f1f4;
+  margin: 10% auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.star {
+  color: #828282;
+  overflow: hidden;
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+.half-star {
+  position: absolute;
+  left: 0;
+  width: 25px;
+  &[id="1.5"] {
+    left: 50px;
+  }
+  &[id="2.5"] {
+    left: 100px;
+  }
+  &[id="3.5"] {
+    left: 150px;
+  }
+  &[id="4.5"] {
+    left: 200px;
+  }
+}
+.star.hover {
+  color: yellow;
+}
+.star.fill {
+  color: #ffd500;
+}
+
+/* state when element is filled and get hovered */
+.star.hover.fill {
+  color: yellow;
+}
