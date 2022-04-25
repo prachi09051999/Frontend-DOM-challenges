@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+button {
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: rgb(9, 113, 241);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+.toast {
+  padding: 20px;
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
