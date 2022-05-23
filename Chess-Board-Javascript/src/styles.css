@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+}
+table {
+  border: 2px solid black;
+  border-spacing: 0px;
+}
+.chess-block {
+  width: 100px;
+  height: 100px;
+}
+.chess-block.odd {
+  background-color: #fff;
+}
+.chess-block.even {
+  background-color: #000;
+}
+.chess-block.selected {
+  background-color: red;
+}
