@@ -1,5 +1,5 @@
-# React-frontend-DOM-challenges
-A Repository containing frontend challenges solved in React
+# Frontend-DOM-challenges
+A Repository containing frontend challenges solved either in React or in Vanila Javascript
 
 <b><i> The FrontEnd Challenges </i></b>
 <br>
